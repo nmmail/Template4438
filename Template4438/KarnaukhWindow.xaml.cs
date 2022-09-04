@@ -10,31 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Template4438
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для KarnaukhWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class KarnaukhWindow : Window
     {
-        public MainWindow()
+        public KarnaukhWindow()
         {
             InitializeComponent();
-        }
-
-        private void BnTask_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void BnKarnaukh_Click(object sender, RoutedEventArgs e)
-        {
-            KarnaukhWindow window = new KarnaukhWindow();
-            window.Show();
-            this.Hide();
         }
     }
 }
