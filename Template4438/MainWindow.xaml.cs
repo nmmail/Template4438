@@ -36,5 +36,12 @@ namespace Template4438
             window.Show();
             this.Hide();
         }
+
+        private void BnVafin_Click(object sender, RoutedEventArgs e)
+        {
+            _4438_Vafin vafinWindow = new _4438_Vafin();
+            vafinWindow.Show();
+            this.Hide();
+        }
     }
 }
