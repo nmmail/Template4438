@@ -43,5 +43,12 @@ namespace Template4438
             vafinWindow.Show();
             this.Hide();
         }
+
+        private void BnRahimov_Click(object sender, RoutedEventArgs e)
+        {
+            RahimovWindow rahimov = new RahimovWindow();
+            RahimovWindow.Show();
+            this.Hide();
+        }
     }
 }
