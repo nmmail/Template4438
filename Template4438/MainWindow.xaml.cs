@@ -20,6 +20,7 @@ namespace Template4438
     /// </summary>
     public partial class MainWindow : Window
     {
+        public static VasilevWindow vasilevWindow;
         public MainWindow()
         {
             InitializeComponent();
@@ -50,5 +51,15 @@ namespace Template4438
             RahimovWindow.Show();
             this.Hide();
         }
-    }
+
+		private void BtnVasilev_Click(object sender, RoutedEventArgs e)
+		{
+            if (vasilevWindow == null)
+            { 
+                vasilevWindow = new VasilevWindow();
+                vasilevWindow.Show();
+                this.Close();
+            }
+		}
+	}
 }

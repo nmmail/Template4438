@@ -1,0 +1,18 @@
+﻿<Window x:Class="Template4438.VasilevWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Template4438"
+        mc:Ignorable="d"
+        Title="VasilevWindow" Height="200" Width="400">
+    <Grid>
+		<StackPanel HorizontalAlignment="Center">
+			<TextBlock >Автор: Васильев Максим</TextBlock>
+			<TextBlock >Возраст: 19</TextBlock>
+			<TextBlock >Специальность: Информационные сисетмы и программирование</TextBlock>
+			<TextBlock >Гороскоп: Телец</TextBlock>
+			<Button Name="Back" Click="Back_Click" Margin="20">Назад</Button>
+		</StackPanel>
+	</Grid>
+</Window>
