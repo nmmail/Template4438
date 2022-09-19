@@ -50,24 +50,21 @@ namespace Template4438
         //    RahimovWindow.Show();
         //    this.Hide();
         //}
-
-		private void BtnVasilev_Click(object sender, RoutedEventArgs e)
-		{
         private void BnRahimov_Click(object sender, RoutedEventArgs e)
         {
             //RahimovWindow rahimov = new RahimovWindow();
             //RahimovWindow.Show();
             //this.Hide();
         }
-		    private void BtnVasilev_Click(object sender, RoutedEventArgs e)
-		    {
+        private void BtnVasilev_Click(object sender, RoutedEventArgs e)
+        {
             if (vasilevWindow == null)
-            { 
+            {
                 vasilevWindow = new VasilevWindow();
                 vasilevWindow.Show();
                 this.Close();
             }
-		    }
+        }
         private void BGallyamov_Click(object sender, RoutedEventArgs e)
         {
             GallyamovARwindow g = new GallyamovARwindow();
@@ -88,7 +85,7 @@ namespace Template4438
         {
             _4438_Galimov window = new _4438_Galimov();
             window.Show();
-        }            
+        }
         private void BtnNasibullin_Click(object sender, RoutedEventArgs e)
         {
             _4438_Nasibullin _4438_Nasibullin = new _4438_Nasibullin();
@@ -103,9 +100,9 @@ namespace Template4438
 
         private void BnMakhmutov_Click(object sender, RoutedEventArgs e)
         {
-            _4438_Makhmutov makhmutovWindow = new _4438_Makhmutov();
-            makhmutovWindow.Show();
-            this.Hide();
+            //_4438_Makhmutov makhmutovWindow = new _4438_Makhmutov();
+            //makhmutovWindow.Show();
+            //this.Hide();
         }
     }
 }
