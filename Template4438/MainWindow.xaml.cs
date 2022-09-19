@@ -44,35 +44,46 @@ namespace Template4438
             vafinWindow.Show();
             this.Hide();
         }
-
         private void BnRahimov_Click(object sender, RoutedEventArgs e)
         {
             //RahimovWindow rahimov = new RahimovWindow();
             //RahimovWindow.Show();
             //this.Hide();
         }
-
-		private void BtnVasilev_Click(object sender, RoutedEventArgs e)
-		{
+		    private void BtnVasilev_Click(object sender, RoutedEventArgs e)
+		    {
             if (vasilevWindow == null)
             { 
                 vasilevWindow = new VasilevWindow();
                 vasilevWindow.Show();
                 this.Close();
             }
-		}
-
+		    }
         private void BGallyamov_Click(object sender, RoutedEventArgs e)
         {
             GallyamovARwindow g = new GallyamovARwindow();
             g.Show();
             this.Hide();
         }
-
         private void BtnSharafetdinov_Click(object sender, RoutedEventArgs e)
         {
             SharafetdinovWindow NikitaW = new SharafetdinovWindow();
             NikitaW.Show();
+        }
+        private void btnGalimov_Click(object sender, RoutedEventArgs e)
+        {
+            _4438_Galimov window = new _4438_Galimov();
+            window.Show();
+        }            
+        private void BtnNasibullin_Click(object sender, RoutedEventArgs e)
+        {
+            _4438_Nasibullin _4438_Nasibullin = new _4438_Nasibullin();
+            _4438_Nasibullin.Show();
+        }
+        private void BtnShigabiev_Click(object sender, RoutedEventArgs e)
+        {
+            ShigabievWindow ShamilW = new ShigabievWindow();
+            ShamilW.Show();
             this.Hide();
         }
     }
