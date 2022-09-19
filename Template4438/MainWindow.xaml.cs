@@ -61,5 +61,12 @@ namespace Template4438
                 this.Close();
             }
 		}
-	}
+
+        private void BGallyamov_Click(object sender, RoutedEventArgs e)
+        {
+            GallyamovARwindow g = new GallyamovARwindow();
+            g.Show();
+            this.Hide();
+        }
+    }
 }
