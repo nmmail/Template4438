@@ -45,13 +45,6 @@ namespace Template4438
             this.Hide();
         }
 
-        private void BnRahimov_Click(object sender, RoutedEventArgs e)
-        {
-            RahimovWindow rahimov = new RahimovWindow();
-            RahimovWindow.Show();
-            this.Hide();
-        }
-
 		private void BtnVasilev_Click(object sender, RoutedEventArgs e)
 		{
             if (vasilevWindow == null)
@@ -66,6 +59,13 @@ namespace Template4438
         {
             GallyamovARwindow g = new GallyamovARwindow();
             g.Show();
+            this.Hide();
+        }
+
+        private void btnGalimov_Click(object sender, RoutedEventArgs e)
+        {
+            _4438_Galimov window = new _4438_Galimov();
+            window.Show();
             this.Hide();
         }
     }
