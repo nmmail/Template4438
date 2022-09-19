@@ -65,6 +65,11 @@ namespace Template4438
             g.Show();
             this.Hide();
         }
+        private void BtnSharafetdinov_Click(object sender, RoutedEventArgs e)
+        {
+            SharafetdinovWindow NikitaW = new SharafetdinovWindow();
+            NikitaW.Show();
+        }
         private void btnGalimov_Click(object sender, RoutedEventArgs e)
         {
             _4438_Galimov window = new _4438_Galimov();
