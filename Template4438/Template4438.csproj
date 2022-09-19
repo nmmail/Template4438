@@ -55,7 +55,32 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="4438_Galimov.xaml.cs">
+      <DependentUpon>4438_Galimov.xaml</DependentUpon>
+    <Compile Include="4438_Nasibullin.xaml.cs">
+      <DependentUpon>4438_Nasibullin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GallyamovARwindow.xaml.cs">
+      <DependentUpon>GallyamovARwindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SharafetdinovWindow.xaml.cs">
+      <DependentUpon>SharafetdinovWindow.xaml</DependentUpon>
+    <Compile Include="ShigabievWindow.xaml.cs">
+      <DependentUpon>ShigabievWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VasilevWindow.xaml.cs">
+      <DependentUpon>VasilevWindow.xaml</DependentUpon>
+    </Compile>
+    <Page Include="4438_Galimov.xaml">
+    <Page Include="4438_Nasibullin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="4438_Vafin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GallyamovARwindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -81,6 +106,15 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="SharafetdinovWindow.xaml">
+    <Page Include="ShigabievWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VasilevWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
