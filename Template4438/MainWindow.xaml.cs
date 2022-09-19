@@ -69,6 +69,11 @@ namespace Template4438
             this.Hide();
         }
 
+        private void BtnNasibullin_Click(object sender, RoutedEventArgs e)
+        {
+            _4438_Nasibullin _4438_Nasibullin = new _4438_Nasibullin();
+            _4438_Nasibullin.Show();
+        }
         private void BtnShigabiev_Click(object sender, RoutedEventArgs e)
         {
             ShigabievWindow ShamilW = new ShigabievWindow();

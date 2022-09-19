@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="4438_Nasibullin.xaml.cs">
+      <DependentUpon>4438_Nasibullin.xaml</DependentUpon>
+    </Compile>
     <Compile Include="GallyamovARwindow.xaml.cs">
       <DependentUpon>GallyamovARwindow.xaml</DependentUpon>
     </Compile>
@@ -64,6 +67,10 @@
     <Compile Include="VasilevWindow.xaml.cs">
       <DependentUpon>VasilevWindow.xaml</DependentUpon>
     </Compile>
+    <Page Include="4438_Nasibullin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="4438_Vafin.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
