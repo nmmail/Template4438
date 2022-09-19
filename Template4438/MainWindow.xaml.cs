@@ -50,5 +50,12 @@ namespace Template4438
             RahimovWindow.Show();
             this.Hide();
         }
+
+        private void BnMakhmutov_Click(object sender, RoutedEventArgs e)
+        {
+            _4438_Makhmutov makhmutovWindow = new _4438_Makhmutov();
+            makhmutovWindow.Show();
+            this.Hide();
+        }
     }
 }
