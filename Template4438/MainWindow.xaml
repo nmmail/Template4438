@@ -39,5 +39,6 @@
         <Button x:Name="BnVafin" Click="BnVafin_Click" Content="Вафин Б. М." Grid.Row="3"></Button>
 		<Button x:Name="BtnVasilev" Click="BtnVasilev_Click" Content="Васильев М.В." Grid.Row="5"></Button>
         <Button x:Name="BGallyamov" Click="BGallyamov_Click" Content="Галлямов А.Р." Grid.Row="7"></Button>
+        <Button x:Name="BTovmach" Click="BTovmach_Click"  Content="Товмач А.О." Grid.Row="9"></Button>
 	</Grid>
 </Window>
