@@ -57,8 +57,10 @@
     </ApplicationDefinition>
     <Compile Include="4438_Tovmach.xaml.cs">
       <DependentUpon>4438_Tovmach.xaml</DependentUpon>
+      </Compile>
     <Compile Include="4438_Galimov.xaml.cs">
       <DependentUpon>4438_Galimov.xaml</DependentUpon>
+      </Compile>
     <Compile Include="4438_Nasibullin.xaml.cs">
       <DependentUpon>4438_Nasibullin.xaml</DependentUpon>
     </Compile>
