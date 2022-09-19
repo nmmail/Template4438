@@ -57,10 +57,10 @@
     </ApplicationDefinition>
     <Compile Include="4438_Tovmach.xaml.cs">
       <DependentUpon>4438_Tovmach.xaml</DependentUpon>
-      </Compile>
+    </Compile>
     <Compile Include="4438_Galimov.xaml.cs">
       <DependentUpon>4438_Galimov.xaml</DependentUpon>
-      </Compile>
+    </Compile>
     <Compile Include="4438_Nasibullin.xaml.cs">
       <DependentUpon>4438_Nasibullin.xaml</DependentUpon>
     </Compile>
@@ -69,14 +69,15 @@
     </Compile>
     <Compile Include="SharafetdinovWindow.xaml.cs">
       <DependentUpon>SharafetdinovWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ShigabievWindow.xaml.cs">
       <DependentUpon>ShigabievWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="VasilevWindow.xaml.cs">
       <DependentUpon>VasilevWindow.xaml</DependentUpon>
     </Compile>
-    <Page Include="4438_Tovmach.xaml">
-    <Page Include="4438_Galimov.xaml">
+    <Page Include="4438_Tovmach.xaml"></Page>
+    <Page Include="4438_Galimov.xaml"></Page>
     <Page Include="4438_Nasibullin.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -111,7 +112,7 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="SharafetdinovWindow.xaml">
+    <Page Include="SharafetdinovWindow.xaml"></Page>
     <Page Include="ShigabievWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
