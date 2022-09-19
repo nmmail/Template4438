@@ -50,9 +50,6 @@ namespace Template4438
         //    RahimovWindow.Show();
         //    this.Hide();
         //}
-
-		private void BtnVasilev_Click(object sender, RoutedEventArgs e)
-		{
         private void BnRahimov_Click(object sender, RoutedEventArgs e)
         {
             //RahimovWindow rahimov = new RahimovWindow();
@@ -101,11 +98,11 @@ namespace Template4438
             this.Hide();
         }
 
-        private void BnMakhmutov_Click(object sender, RoutedEventArgs e)
+        private void BtnBritvina_Click(object sender, RoutedEventArgs e)
         {
-            _4438_Makhmutov makhmutovWindow = new _4438_Makhmutov();
-            makhmutovWindow.Show();
-            this.Hide();
+            _4438_Britvina window = new _4438_Britvina();
+            window.Show();
+
         }
     }
-}
+    }
