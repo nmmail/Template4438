@@ -55,8 +55,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="4438_Tovmach.xaml.cs">
+      <DependentUpon>4438_Tovmach.xaml</DependentUpon>
+      </Compile>
     <Compile Include="4438_Galimov.xaml.cs">
       <DependentUpon>4438_Galimov.xaml</DependentUpon>
+      </Compile>
     <Compile Include="4438_Nasibullin.xaml.cs">
       <DependentUpon>4438_Nasibullin.xaml</DependentUpon>
     </Compile>
@@ -71,6 +75,7 @@
     <Compile Include="VasilevWindow.xaml.cs">
       <DependentUpon>VasilevWindow.xaml</DependentUpon>
     </Compile>
+    <Page Include="4438_Tovmach.xaml">
     <Page Include="4438_Galimov.xaml">
     <Page Include="4438_Nasibullin.xaml">
       <SubType>Designer</SubType>
