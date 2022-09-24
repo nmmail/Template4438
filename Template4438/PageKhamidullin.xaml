@@ -1,0 +1,31 @@
+﻿<Window x:Class="Template4438.PageKhamidullin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Template4438"
+        mc:Ignorable="d"
+          WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        Title="Page_Khamidullin" Height="450" Width="450">
+    <Grid>
+        <Grid Background="White">
+            <StackPanel>
+                <Border Background="Gray" Width="35" Height="20" HorizontalAlignment="Right" Margin="0,10,10,0" CornerRadius="10">
+                    <Button x:Name="Button_exit" Click="Button_exit_Click" Content="x" Background="Gray" Width="20">
+
+                    </Button>
+                </Border>
+                <Border Background="Gray" Height="50" Margin="10" VerticalAlignment="Top" CornerRadius="50">
+                    <TextBlock Text="Информация об авторе"  VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25"/>
+                </Border>
+            </StackPanel>
+            <Border Background="Gray" Height="50" Margin="10" VerticalAlignment="Center" CornerRadius="50">
+                <StackPanel VerticalAlignment="Center">
+                    <TextBlock Text="Хамидуллмн Айнур" HorizontalAlignment="Center" FontSize="14"/>
+                    <TextBlock Text="Возраст: 19" FontSize="14" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+    </Grid>
+</Window>

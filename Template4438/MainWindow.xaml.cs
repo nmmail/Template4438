@@ -103,5 +103,12 @@ namespace Template4438
             _4438_Britvina window = new _4438_Britvina();
             window.Show();
         }
+
+        private void BnKhamidullin_Click(object sender, RoutedEventArgs e)
+        {
+            var window = new PageKhamidullin();
+            window.Show();
+            this.Close();
+        }
     }
 }
